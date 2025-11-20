@@ -4,8 +4,7 @@
 Hi everyone, this is the ReadMe file for the Laboratory 4: Scheduler. This project implements a **cooperative scheduler** on the STM32F103C6 microcontroller. The scheduler manages multiple periodic and one-shot tasks using a timer interrupt (tick = 10ms), and demonstrates basic embedded system design principles such as function pointers, task management, and modular programming. The project is designed for educational purposes and is simulated using Proteus.
 
 ## 2. Video Demonstration:
-- link1
-- link2
+- link:
 ![Scheduler](Image/Scheduler%20demo.png)
 
 ## 3. Schematic
@@ -15,6 +14,7 @@ The hardware setup is simulated in **Proteus 8.10** using the STM32F103C6 microc
 **Explanation:**
 - **7-Segment Display:** Connected to GPIO pins to show the time (using timer interrupt). I use this to check that if scheduler works right timly.
 - **LEDs:** Five LEDs are connected to GPIO pins, each controlled by a separate task in the scheduler.
+- ULN2003A is used as a driver for the 7-segment display to handle the current requirements.
 
 ## 4. Configuration in STM32CubeIDE
 - **Timer:** Configured with prescaler = 7999, counter = 9 (TICK = 10 ms)
