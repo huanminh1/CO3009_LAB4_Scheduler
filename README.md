@@ -5,6 +5,8 @@ Hi everyone, this is the ReadMe file for the Laboratory 4: Scheduler. This proje
 
 ## 2. Video Demonstration:
 - link:
+
+**Scheduler simulation**
 ![Scheduler](Image/Scheduler%20demo.png)
 
 ## 3. Schematic
